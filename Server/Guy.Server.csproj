@@ -16,6 +16,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\ESX.Server\ESX.Server.csproj" />
+	  <ProjectReference Include="..\ESXSharp.Server\ESXSharp.Server.csproj" />
 	</ItemGroup>
 </Project>

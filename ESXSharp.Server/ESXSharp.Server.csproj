@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net452</TargetFramework>
+        <DebugType>embedded</DebugType>
+        <DefineConstants>SERVER</DefineConstants>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="CitizenFX.Core.Server" Version="1.0.10230" />
+        <Reference Include="Microsoft.CSharp" />
+    </ItemGroup>
+</Project>
