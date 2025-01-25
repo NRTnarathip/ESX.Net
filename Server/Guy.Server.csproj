@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net452</TargetFramework>
+		<DebugType>embedded</DebugType>
+		<TargetName>$(AssemblyName).net</TargetName>
+		<DefineConstants>SERVER</DefineConstants>
+		<LangVersion>latest</LangVersion>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CitizenFX.Core.Server" Version="1.0.*" />
+		<None Include="../fxmanifest.lua">
+			<Link>fxmanifest.lua</Link>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\ESX.Server\ESX.Server.csproj" />
+	</ItemGroup>
+</Project>

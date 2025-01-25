@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\guy-server\\resources\\[general]\\esx.net\\ESX.Server\\ESX.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\guy-server\\resources\\[general]\\esx.net\\ESX.Server\\ESX.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\guy-server\\resources\\[general]\\esx.net\\ESX.Server\\ESX.Server.csproj",
+        "projectName": "ESX.Server",
+        "projectPath": "D:\\guy-server\\resources\\[general]\\esx.net\\ESX.Server\\ESX.Server.csproj",
+        "packagesPath": "C:\\Users\\narat\\.nuget\\packages\\",
+        "outputPath": "D:\\guy-server\\resources\\[general]\\esx.net\\ESX.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\narat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "targetAlias": "net452",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net452": {
+          "targetAlias": "net452",
+          "dependencies": {
+            "CitizenFX.Core.Server": {
+              "target": "Package",
+              "version": "[1.0.10230, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

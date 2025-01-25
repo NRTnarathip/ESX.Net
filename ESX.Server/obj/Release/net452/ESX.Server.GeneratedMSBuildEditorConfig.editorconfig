@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = ESX.Server
+build_property.ProjectDir = D:\guy-server\resources\[general]\esx.net\ESX.Server\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

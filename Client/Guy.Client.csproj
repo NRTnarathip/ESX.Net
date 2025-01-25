@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net462</TargetFramework>
+		<TargetName>$(AssemblyName).net</TargetName>
+		<DebugType>embedded</DebugType>
+
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="CitizenFX.Core.Client" Version="1.0.10230" />
+		<None Include="../fxmanifest.lua">
+			<Link>fxmanifest.lua</Link>
+		</None>
+	</ItemGroup>
+</Project>

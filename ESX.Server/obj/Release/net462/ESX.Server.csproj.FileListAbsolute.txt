@@ -1,0 +1,6 @@
+D:\drip-server\resources\[development]\Guy\ESX.Server\obj\Release\net462\ESX.Server.csproj.AssemblyReference.cache
+D:\drip-server\resources\[development]\Guy\ESX.Server\obj\Release\net462\ESX.Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\drip-server\resources\[development]\Guy\ESX.Server\obj\Release\net462\ESX.Server.AssemblyInfoInputs.cache
+D:\drip-server\resources\[development]\Guy\ESX.Server\obj\Release\net462\ESX.Server.AssemblyInfo.cs
+D:\drip-server\resources\[development]\Guy\ESX.Server\obj\Release\net462\ESX.Server.csproj.CoreCompileInputs.cache
+D:\drip-server\resources\[development]\Guy\ESX.Server\obj\Release\net462\ESX.Server.sourcelink.json
