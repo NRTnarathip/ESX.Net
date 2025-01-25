@@ -13,10 +13,10 @@ public class ServerMain : ESXScript
         Print("Player count: ", players.Count);
         foreach (var player in players)
         {
-            Print("player id: ", player.playerId);
-            Print("player name: ", player.name);
-            Print("player identifier: ", player.identifier);
-            Print("player spawned: ", player.spawned);
+            foreach (var item in player.inventory)
+            {
+                ESX.DumpDynamicObject(item);
+            }
         }
     }
 }

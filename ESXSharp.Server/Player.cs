@@ -14,11 +14,12 @@ public sealed class Player
     public readonly string name;
     public readonly int playerId;
     public readonly int source;
-    public readonly float weight;
-    public readonly float maxWeight;
+    public readonly int weight;
+    public readonly int maxWeight;
     public readonly float lastPlaytime;
     public readonly bool admin;
     public readonly string license;
+    public readonly List<object> inventory;
 
     //in server/common.lua
     public readonly bool spawned;
@@ -48,6 +49,7 @@ public sealed class Player
             var value = item.Value;
             var field = _CacheFields[fieldName];
             field.SetValue(this, value);
+            ESX.Print("set field:", fieldName, "value:", value);
         });
     }
 }

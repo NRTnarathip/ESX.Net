@@ -65,10 +65,10 @@ public sealed class ESX : BaseScript
         var dict = (IDictionary<string, object>)obj;
         Print("=== Dump Dynamic Object ===");
         int index = 0;
-        Print("item count: ", dict.Count);
+        Print("Element count: ", dict.Count);
         foreach (var item in dict)
         {
-            Debug.WriteLine($"Item:[{index}] Key: {item.Key}, Value: {item.Value}");
+            Debug.WriteLine($"  [{index}] Key: {item.Key}, Value: {item.Value}");
             index++;
         }
     }
