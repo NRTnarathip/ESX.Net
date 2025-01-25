@@ -3,4 +3,6 @@ Server/bin/Debug
 Client/obj
 Client/bin/Debug
 /ESX.Server/obj
+/ESX.Server/bin
 /ESX.Client/obj
+/ESX.Client/bin
